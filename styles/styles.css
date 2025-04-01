@@ -1,65 +1,148 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #e6e6e6;
     color: #333;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+    }
+    
+    header {
     text-align: center;
     padding: 20px;
-    background-color: #4caf50;
+    background-color: #2d6396;
     color: white;
-  }
-  
-  nav {
+    }
+    
+    nav {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin: 10px 0;
-  }
-  
-  nav button {
-    background-color: #4caf50;
+    gap: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #4d9fec;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+    
+    nav button {
+    background-color: #5496d3;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-  }
-  
-  nav button:hover {
-    background-color: #45a049;
-  }
-  
-  section {
+    } 
+    
+    nav button:hover {
+    background-color: #457ba0;
+    }
+    
+    section {
     display: none;
     padding: 20px;
     text-align: center;
-  }
-  
-  section.active {
+    }
+    
+    section.active {
     display: block;
-  }
-  
-  input {
+    }
+    
+    input {
     margin: 10px;
     padding: 10px;
     width: 100px;
-  }
-  
-  button {
+    } 
+    
+    button {
     padding: 10px 20px;
     background-color: #2196f3;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  button:hover {
+    }
+    
+    button:hover {
     background-color: #0b7dda;
-  }
+    }
+
+    #inicio{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    #suma{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    #resta{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    #multiplicacion{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    #division{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    #actividades{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    #videos{
+        background-color: rgb(250, 246, 246);
+        border-radius: 25px;
+        text-align: start;
+        padding-left: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    }
+
+    a{
+        color:#5496d3;
+    }
